@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS/for-estyle.css">
+</head>
+<body>
+    <head>
+        <nav>
+
+            <div class="container-logo">
+                <img class="img-logo" src="Image/Logo.svg" alt="Logo"/>
+                <p class="p-header">Clínica Dental Dr. Kelvin Cano</p>
+            </div>
+
+            <div>
+                <a href="">Acerca de</a>
+                <a href="">Ubicación</a>
+                <a href="">Servicios</a>
+            </div>
+
+            <div class="container-contact">
+                <div class="img-padding">
+                    <a href="https://www.facebook.com/drKelvinCanoTello"><img class="img-size" src="Image/facebook.svg" alt="Logo facebook"/></a>
+                    <a href="#"><img class="img-size" src="Image/whatsapp.svg" alt="Logo whatsapp" /></a>
+                </div>
+                <div class="container-phone">
+                    <div class="container-between">
+                        <div>
+                            <img class="phone-size" src="Image/Phono.svg" alt="Logo Phono">
+                        </div>
+                        <p class="phone-number">7764-4443</p>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <hr>
+    </head>
+
+    <main>
+        <div class="container">
+            <div>
+                <img class="container-imag" src="Image/Imagen.svg" alt="Imagen">
+            </div>
+    
+            <form action="" method="get" autocomplete="off">
+                <p class="container-text">Agendado de cita</p>
+                <div class="container-text2">
+                    <p class="text">Datos del Paciente</p>
+                </div>
+                <div class="container-between2">
+                    <div class="container-padding">
+                        <label for="name">Nombres</label>
+                        <br>
+                        <input class="color-input" type="text" name="user_name" id="name" placeholder="Escriba sus dos nombres" required="true">
+                    </div>
+                    <div class="container-padding">
+                        <label for="last_name">Apellidos</label>
+                        <br>
+                        <input type="text" name="user_last_name" id="last_name" placeholder="Escriba sus dos apellidos" required="true">
+                    </div>
+                </div>
+                
+                <div class="container-between2">
+                    <div class="container-padding">
+                        <label for="dpi">DPI o CUI</label>
+                        <br>
+                        <input type="text" name="user_dpi" id="dpi" required="true">
+                    </div>
+                    <div class="container-padding">
+                        <label for="direction">Dirección</label>
+                        <br>
+                        <input class="color-input" type="text" name="direction" id="direction" required="true">
+                    </div>
+                </div>
+    
+                <div class="container-between2">
+                    <div class="container-padding">
+                        <label for="birthday">Fecha de nacimiento</label>
+                        <br>
+                        <input type="date" name="use_birthday" id="birthday" required="true">
+                    </div>
+                    <div class="container-padding">
+                        <label for="tel">Numero de teléfono (Casa o Celular)</label>
+                        <br>
+                        <input type="tel" name="user_tel" id="tel" required="true">
+                    </div>
+                </div>
+                <br>
+
+                <div class="container-text2">
+                    <p class="text">Datos de la Cita</p>
+                </div>
+                <div class="container-between2">
+                    <div class="container-padding">
+                        <label for="date">Fecha de la cita</label>
+                        <br>
+                        <input type="date" name="user_date" id="date" required="true">
+                    </div>
+                    <div class="container-padding">
+                        <label for="time">Hora de la cita</label>
+                        <br>
+                        <input class="color-input" type="time" name="user_time" id="time" required="true">
+                    </div>
+                </div>
+    
+                <div class="container-button">
+                    <button type="submit" name="enviar_formulario" id="enviar">
+                        <div class="container-flex">
+                            <p class="button-p">Agendar Cita</p>
+                            <img src="Image/Arrow.svg" alt="Arrow">
+                        </div>
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </main>
+</body>
+</html>

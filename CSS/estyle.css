@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@500;700&family=Raleway:wght@400;500;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    padding: 20px 30px 0px 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-phone{
+    width: 196px;
+    height: 50px;
+
+    background-color: rgba(208, 251, 238, 0.5);
+    border-radius: 10px;
+}
+
+.container-between{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.p-header{
+    
+    left: 65px;
+
+    width: 169px;
+    height: 56px;
+    
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000;
+}
+
+.p-header2{
+    
+    font-family: 'Kreon', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 121%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #085A42;
+}
+
+.img-phone{
+    width: 25px;
+    height: 25.51px;
+    padding-right:10px;
+}
+
+.img-logo{
+    width: 54.16px;
+    height: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+
+img.size{
+    width: 35px;
+    height: 35px;
+    padding-top: 5px;
+    padding-right: 8px;
+}
+
+a{
+    text-decoration: none;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000;
+    padding: 5px;
+}
+
+hr{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #9cc7ba;
+}
+
+/* -------------Main------------- */
+.container-Main{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 50px 0px 50px;
+    margin: 0px;
+}
+
+.container-width{
+    width: 500px;
+}
+.container-title{
+    height: 270px;
+
+    font-family: 'Kreon', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 85px;
+
+    align-items: center;
+    color: #2B2D42;
+}
+
+.container-p{
+    height: 140px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 140%;
+    align-items: center;
+
+    color:  #2B2D42;
+}
+
+.imag-patient1{
+    width: 770px;
+    height: 526px;
+}
+
+span{
+    color: #19DEA3;
+}
+
+.button-schedule{
+    background-color: #F39C18;
+    border-radius: 10px;
+    width: 350px;
+    height: 70px;
+}
+
+.button-between{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.button-img{
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+}
+
+.button-p{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28.43px;
+    line-height: 140%;
+
+    align-items: center;
+    text-align: center;
+
+    color: #ffff;
+
+    padding: 0px;
+}
+
+
+/* -------------Section 1------------- */
+.section-color1{
+    background-color: #FFF3E0;
+}
+
+.container-section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 46px 50px 0px 50px;
+    margin: 0px;
+}
+
+.section-width{
+    width: 500px;
+}
+
+.section-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0px 0px 0px;
+}
+
+.title{
+    height: 270px;
+
+    font-family: 'Kreon', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 112px;
+
+    align-items: center;
+    color:  #2B2D42;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.imag-Location{
+    width: 185px;
+    height: 185px;
+}
+
+.section-p{
+    width: 600px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 140%;
+
+    align-items: center;
+    color: #2B2D42;
+}
+
+.img-map{
+    width: 600px;
+}
+
+/* -------------Section 2------------- */
+.section2-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-centrar{
+    width: 560px;
+    height: 170px;
+
+    font-family: 'Kreon', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 60px;
+    text-align: center;
+    display: flex;
+
+    color: #2B2D42;
+    padding: 40px 40px 0px 40px;
+}
+
+.container-section2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 38px;
+    /* width: 500px; */
+}
+
+.container-div2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-div{
+    width: 70px;
+    height: 40px;
+}
+
+.section2-p{
+    font-family: 'Kreon', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 48px;
+
+    align-items: center;
+}
+
+.section2-p2{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+}
+
+.container-div{
+    padding: 25px 0px;
+    width: 280px;
+}
+
+.patient2{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
